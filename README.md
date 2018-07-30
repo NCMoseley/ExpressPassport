@@ -18,7 +18,7 @@ Server operates on:
  port :3090
 ```
 
-You will find /signup and signin routes exist.
+You will find localhost:3090/signup and localhost:3090/signin routes exist.
 
 Use Postman to create a user on the signup route.
 
