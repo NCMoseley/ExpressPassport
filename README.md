@@ -1,10 +1,16 @@
 # Express Passport
 
-Boilerplate for node.js server using Mongoose. Passport and JWT for Authentication.
+Boilerplate for node.js server using Express, Mongoose/mongoDB.
+
+Web Token Authentication created with Bcrypt, Passport, and Jwt.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+```
+npm install
+```
 
 ```
 npm run dev
