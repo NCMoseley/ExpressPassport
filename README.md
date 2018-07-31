@@ -18,7 +18,7 @@ npm run dev
 
 ## Installation
 
-You need to add a config file to the root directory. Never push this file to a public repo, this will contain the secret for your hash creation. Your config file should include the following:
+You need to add a **config.js** file to the root directory. Never push this file to a public repo, this will contain the secret for your hash creation. Your config file should include the following:
 
 ```
 module.exports = {
