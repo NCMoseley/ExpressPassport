@@ -26,7 +26,7 @@ module.exports = {
 };
 ```
 
-Replace _'anystring'_ with something specific to your project.
+Replace _'anystring'_ with a string specific to your project. Must be String type.
 
 To run the development server
 
