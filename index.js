@@ -8,6 +8,7 @@ const app = express();
 app.use(passport.initialize());
 const router = require('./router');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 // Mongo DB setup
 
@@ -22,7 +23,7 @@ mongoose
 //  App Setup
 
 // app.use(morgan('combined')); // log DB requests to the console
-
+app.use(cors());
 app.use(bodyParser.json({ type: '*/*' }));
 router(app);
 

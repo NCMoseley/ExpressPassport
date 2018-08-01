@@ -49,6 +49,8 @@ Use Postman to create a user on the signup route.
 }
 ```
 
+To run with the corresponding client, see [ExpressClient](https://github.com/NCMoseley/ExpressClient).
+
 ## References
 
 Thanks to Stephen Grider for this tutorial:
