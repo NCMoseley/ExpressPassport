@@ -36,6 +36,22 @@ Server operates on:
 port :3090
 ```
 
+MongoDB must be running and installed to use. [MongoDB Installation](https://docs.mongodb.com/manual/installation/)
+
+Open a terminal window and start mongo with:
+
+```
+ *mongod*
+```
+
+You can get status logs also by running:
+
+```
+mongo
+```
+
+in a separate window.
+
 You will find localhost:3090/signup and localhost:3090/signin routes exist.
 
 Use Postman to create a user on the signup route.
