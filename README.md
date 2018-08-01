@@ -1,6 +1,6 @@
 # Express Passport
 
-Boilerplate for node.js server using Express, Mongoose/mongoDB.
+Boilerplate for node.js server using Express, Mongoose/mongoDB. This project supports account creation based on email & password combination. Credentials are stored in mongoDB via mongoose. The server creates Jwt tokens, and the client places them in localstorage in the browser to preserve logged in state for each user. There is a boilerplate feature route which is only available to users who have created an account and are logged in
 
 Web Token Authentication created with Bcrypt, Passport, and Jwt.
 
@@ -56,7 +56,3 @@ To run with the corresponding client, see [ExpressClient](https://github.com/NCM
 Thanks to Stephen Grider for this tutorial:
 
 https://www.udemy.com/react-redux-tutorial
-
-```
-
-```
