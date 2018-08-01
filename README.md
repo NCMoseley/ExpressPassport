@@ -38,23 +38,21 @@ port :3090
 
 MongoDB must be running and installed to use. [MongoDB Installation](https://docs.mongodb.com/manual/installation/)
 
-Open a terminal window and start mongo with:
+Open a terminal window and start mongoDB with:
 
 ```
  *mongod*
 ```
 
-You can get status logs also by running:
+You can get status logs also by running in a separate window:
 
 ```
 mongo
 ```
 
-in a separate window.
-
 You will find localhost:3090/signup and localhost:3090/signin routes exist.
 
-Use Postman to create a user on the signup route.
+Use Postman to create a user on the signup route, or use client.(See below)
 
 ```
 {
